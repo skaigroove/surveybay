@@ -1,5 +1,11 @@
 from fastapi import FastAPI
+from sqlalchemy.orm import Session
+from app.database import engine, get_db
+import app.models
 from app.api.routes import router
+
+# 모델과 데이터베이스 테이블 생성
+app.models.Base.metadata.create_all(bind=engine)
 
 # FastAPI 인스턴스 생성
 app = FastAPI(title="surveybay")
