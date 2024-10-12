@@ -1,0 +1,97 @@
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 디렉토리
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# 환경 변수 파일
+.env
+.env.*
+
+# 테스트 관련 파일
+coverage/
+*.cover
+*.coverage
+*.log
+nosetests.xml
+coverage.xml
+*.coveragerc
+.tox/
+.pytest_cache/
+.cache
+
+# MyPy 검사 파일
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# SQLAlchemy 관련
+*.db
+*.sqlite3
+
+# 로그 및 임시 파일
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pid
+*.swp
+
+# Editor 디렉토리/파일
+.vscode/
+.idea/
+
+# Distribution/Build 파일
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PIP 설치 기록
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker 관련
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Coverage 관련
+htmlcov/
+.coverage
+.cache
+*.cover
+.hypothesis/
+
+# 파이썬 bytecode
+*.py[co]
+__pycache__/
+
+# 파이썬 virtualenv
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# node_modules
+node_modules/
+npm-debug.log
+
+# 운영체제 관련
+.DS_Store
+Thumbs.db
